@@ -4,14 +4,13 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "vercel dev",
+    "start": "vercel dev --debug",
     "deploy": "vercel deploy --prod"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "@vercel/node": "^1.12.1",
     "vercel": "^23.1.2"
   }
 }
