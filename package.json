@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "vercel dev --debug",
+    "start": "vercel dev",
+    "debug": "vercel dev --debug",
     "deploy": "vercel deploy --prod"
   },
   "keywords": [],
@@ -12,5 +13,9 @@
   "license": "ISC",
   "devDependencies": {
     "vercel": "^23.1.2"
+  },
+  "dependencies": {
+    "chrome-aws-lambda": "^10.1.0",
+    "puppeteer-core": "^11.0.0"
   }
 }
