@@ -4,8 +4,10 @@ const svgColor = 'e5e9ee';
     const tagDiv = tag ? `<div class="tag">${tag}</div>` : '';
     const date = '15/11/2021';
     const htmlContainer = `
-        <html>
+        <html leng="heb">
            <head>
+           <title>open graph generator</title>
+           <meta charset="UTF-8" />
               <style> 
                  * { margin: 0; padding: 0; direction: rtl} *, 
                  *:before, 
