@@ -19,7 +19,7 @@ module.exports = async (req, res) => {
             'Accept-Charset': 'utf-8',
             'Content-Type': 'text/html; charset=utf-8',
         });
-        await page.setContent(html, {waitUntil: 'networkidle2', timeout: 15000});
+        await page.setContent(html.toString('utf8'), {waitUntil: 'networkidle2', timeout: 15000});
 
         const buffer = await page.screenshot({type: 'png'});
 
