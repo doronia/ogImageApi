@@ -18,6 +18,10 @@ module.exports = async (req, res) => {
 
         const page = await getPage();
         await page.setViewport({width: 1200, height: 630});
+        await page.setExtraHTTPHeaders({
+            'Accept-Charset': 'utf-8',
+            'Content-Type': 'text/html; charset=utf-8',
+        });
         await page.setContent(html, {waitUntil: 'networkidle2', timeout: 15000});
 
         const buffer = await page.screenshot({type: 'png'});
