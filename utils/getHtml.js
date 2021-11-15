@@ -1,19 +1,18 @@
 const getHtml = async (title = null, tag = null, author = 'חדשות ספונסר') => {
     if (!title) return;
-const svgColor = 'e5e9ee';
+    const svgColor = 'e5e9ee';
     const tagDiv = tag ? `<div class="tag">${tag}</div>` : '';
     const date = '15/11/2021';
     const htmlContainer = `
-        <html leng="heb">
+        <html lang="heb">
            <head>
-           <title>open graph generator</title>
-           <meta charset="utf-8" />
-    <meta http-equiv="Content-type" content="text/html; charset=utf-8" />
-              <style> 
+            <title>open graph generator</title>
+            <meta http-equiv="Content-type" content="text/html; charset=utf-8" />
+            <style> 
                  * { margin: 0; padding: 0; direction: rtl} *, 
                  *:before, 
                  *:after { box-sizing: border-box; } 
-                 html, body { margin: 0 auto; width: 1200px; height: 628px; padding: 10px; font-family: "Helvetica Neue", "Helvetica", "Arial", sans-serif; } 
+                 html, body { margin: 0 auto; width: 1200px; height: 628px; padding: 10px; font-family: Arial, sans-serif; } 
                  h1 { font-size: 72px; line-height: 1.25; color: #1E1E1C; margin: 0; text-align: right; } 
                  
                  .flex-container {
