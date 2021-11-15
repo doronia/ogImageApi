@@ -46,9 +46,9 @@ const getHtml = async (title = null, tag = null, author = 'חדשות ספונס
                      overflow: hidden;
                  }
                  .shadow{
-                     -webkit-box-shadow: -7px 7px 0px 0px rgba(0,0,0,0.75);
-                     -moz-box-shadow: -7px 7px 0px 0px rgba(0,0,0,0.75);
-                     box-shadow: -7px 7px 0px 0px rgba(0,0,0,0.75);
+                     -webkit-box-shadow: -7px 7px 0 0 rgba(0,0,0,0.75);
+                     -moz-box-shadow: -7px 7px 0 0 rgba(0,0,0,0.75);
+                     box-shadow: -7px 7px 0 0 rgba(0,0,0,0.75);
                  }
                  .tag {
                      text-align: right;
