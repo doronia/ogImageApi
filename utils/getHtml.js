@@ -7,7 +7,8 @@ const svgColor = 'e5e9ee';
         <html leng="heb">
            <head>
            <title>open graph generator</title>
-           <meta charset="UTF-8" />
+           <meta charset="utf-8" />
+    <meta http-equiv="Content-type" content="text/html; charset=utf-8" />
               <style> 
                  * { margin: 0; padding: 0; direction: rtl} *, 
                  *:before, 
