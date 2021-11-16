@@ -8,11 +8,14 @@ const getHtml = async (title = null, tag = null, author = 'חדשות ספונס
            <head>
             <title>open graph generator</title>
             <meta http-equiv="Content-type" content="text/html; charset=utf-8" />
+            <link rel="preconnect" href="https://fonts.googleapis.com" />
+            <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+            <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@300;700&display=swap" rel="stylesheet" />         
             <style> 
                  * { margin: 0; padding: 0; direction: rtl} *, 
                  *:before, 
                  *:after { box-sizing: border-box; } 
-                 html, body { margin: 0 auto; width: 1200px; height: 628px; padding: 10px; font-family: Arial, sans-serif; } 
+                 html, body { margin: 0 auto; width: 1200px; height: 628px; padding: 10px; font-family: 'Rubik', sans-serif; } 
                  h1 { font-size: 72px; line-height: 1.25; color: #1E1E1C; margin: 0; text-align: right; } 
                  
                  .flex-container {
