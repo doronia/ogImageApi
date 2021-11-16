@@ -4,8 +4,6 @@ const chrome = require('chrome-aws-lambda');
 let page;
 
 const isDev = process.env.NODE_ENV === 'development';
-
-
 const exePath =
     process.platform === 'win32'
         ? 'C:\\Program Files (x86)\\Google\\Chrome\\Application\\chrome.exe'
