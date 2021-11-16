@@ -84,15 +84,11 @@ const getHtml = async (vw=1200, vh=628, title = null, tag = null, author = 'חד
                      text-align: right;
                      color: #1E1E1C;
                      font-size: 26px;
-                
-                     
-                     
                  }
                  .timestamp {
                      text-align: right;
                      color: #1E1E1C;
                      font-size: 26px;
-                  
                  }
                  .sep{ 
                  font-size: 26px;
