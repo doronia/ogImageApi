@@ -22,16 +22,16 @@ const getHtml = async (vw=1200, vh=628, title = null, tag = null, author = 'חד
            <head>
             <title>open graph generator</title>
             <meta http-equiv="Content-type" content="text/html; charset=utf-8" />
-            <link rel="preconnect" href="https://fonts.googleapis.com" />
-            <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+            <!--<link rel="preconnect" href="https://fonts.googleapis.com" />
+            <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />-->
             <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@300;700&display=swap" rel="stylesheet" />         
             <style> 
                  * { margin: 0; padding: 0; direction: rtl} *, 
                  *:before, 
                  *:after { box-sizing: border-box; } 
-                 html, body { margin: 0; padding: 0 } 
+                 html, body { margin: 0; padding: 0; font-family: 'Rubik', sans-serif;  } 
                  body{
-                 font-family: 'Rubik', sans-serif; 
+                 
                  width: ${viewport.width}px; 
                  height: ${viewport.height}px;
                  }
