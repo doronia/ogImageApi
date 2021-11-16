@@ -1,4 +1,4 @@
-const getHtml = async (vw=1200, vh=628, title = null, tag = null, author = 'חדשות ספונסר') => {
+const getHtml = async (vw=1200, vh=628, title = null, tag = null, author, date ) => {
     if (!title) return;
 
 
@@ -10,7 +10,7 @@ const getHtml = async (vw=1200, vh=628, title = null, tag = null, author = 'חד
     const containerBg = '#ffffff'; //'#ffffff'; //'F7F9FB'
     const svgColor = encodeURIComponent('#F7F9FB'); //'F7F9FB' rgba(98, 0, 238, 0.1)
     const tagDiv = tag ? `<div class="tag"><span style="padding-left: 2px">#</span>${tag}</div>` : '';
-    const date = '15/11/2021';
+
 
     const padding = 40;
     const shadowWidth = 6;
