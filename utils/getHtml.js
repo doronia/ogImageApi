@@ -8,7 +8,7 @@ const getHtml = async (vw=1200, vh=628, title = null, tag = null, author, date )
     const borderColor = 'rgba(64, 64, 64, 1)';
     const shadowColor = 'rgba(64, 64, 64, 0.85)';
     const containerBg = '#ffffff'; //'#ffffff'; //'F7F9FB'
-    const svgColor = encodeURIComponent('#F7F9FB'); //'F7F9FB' rgba(98, 0, 238, 0.1)
+    const svgColor = encodeURIComponent('#f1ebff'); //'F7F9FB' rgba(98, 0, 238, 0.1)
     const tagDiv = tag ? `<div class="tag"><span style="padding-left: 2px">#</span>${tag}</div>` : '';
 
 
@@ -47,7 +47,7 @@ const getHtml = async (vw=1200, vh=628, title = null, tag = null, author, date )
                     }
 
                  .container { 
-                    /*background: #651fff; */
+                    background: #d1bcff; 
                     width:${viewport.width}px; 
                     height: ${viewport.height}px; 
                     padding: ${padding}px;
@@ -91,15 +91,15 @@ const getHtml = async (vw=1200, vh=628, title = null, tag = null, author, date )
                  .author {
                      text-align: right;
                      color: #404040;
-                     font-size: 22px;
+                     font-size: 26px;
                  }
                  .timestamp {
                      text-align: right;
                      color: #404040;
-                     font-size: 22px;
+                     font-size: 26px;
                  }
                  .sep{ 
-                 font-size: 22px;
+                 font-size: 26px;
                  margin: 0 6px;
                  color: #1E1E1C;
                  
