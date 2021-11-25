@@ -8,7 +8,7 @@ const getHtml = async (vw=1200, vh=628, title = null, tag = null, author, date )
     const borderColor = 'rgba(64, 64, 64, 1)';
     const shadowColor = 'rgba(64, 64, 64, 0.85)';
     const containerBg = '#ffffff'; //'#ffffff'; //'F7F9FB'
-    const svgColor = encodeURIComponent('#f1ebff'); //'F7F9FB' rgba(98, 0, 238, 0.1)
+    const svgColor = encodeURIComponent('#f6f2ff'); //'F7F9FB' rgba(98, 0, 238, 0.1)
     const tagDiv = tag ? `<div class="tag"><span style="padding-left: 2px">#</span>${tag}</div>` : '';
 
 
