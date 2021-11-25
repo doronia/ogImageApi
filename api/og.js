@@ -18,8 +18,8 @@ module.exports = async (req, res) => {
     const _author = author || 'חדשות ספונסר';
     const _date = date;
 
-    console.log({title, tag, author, date})
-    console.log({_title, _tag, _author,_date})
+    // console.log({title, tag, author, date})
+    // console.log({_title, _tag, _author,_date})
 
     const viewport = {w: 1200, h: 628};
 
