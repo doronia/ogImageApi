@@ -21,7 +21,7 @@ module.exports = async (req, res) => {
     // console.log({title, tag, author, date})
     // console.log({_title, _tag, _author,_date})
 
-    const viewport = {w: 1200, h: 628};
+    const viewport = {w: 500, h: 261};
 
     try {
         const html = await getHtml(viewport.w, viewport.h, _title, _tag, _author, _date);
