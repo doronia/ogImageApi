@@ -21,14 +21,14 @@ module.exports = async (req, res) => {
     // console.log({title, tag, author, date})
     // console.log({_title, _tag, _author,_date})
 
-    const viewport = {w: 500, h: 261};
+    const viewport = {w: 680, h: 354};
 
     try {
         const html = await getHtml(viewport.w, viewport.h, _title, _tag, _author, _date);
 
         // Dev only
-        // res.setHeader('Content-Type', 'text/html; charset=UTF-8');
-        // res.end(html);
+        res.setHeader('Content-Type', 'text/html; charset=UTF-8');
+        res.end(html);
 
         const page = await getPage();
         await page.setViewport({width: viewport.w, height: viewport.h});
